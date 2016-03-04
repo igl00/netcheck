@@ -55,7 +55,7 @@ def query_column(db, sql_query):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Visualize the stored network data created by netcheck.py')
+    parser = argparse.ArgumentParser(description='Visualize the stored network data created by netcheck.pyw')
 
     parser.add_argument('--columns', nargs='+', action='store',
                         help='Plot the data for the given columns. The choices are: download, upload, and ping.')
