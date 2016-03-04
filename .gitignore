@@ -1,5 +1,7 @@
 # Project excludes
 notebooks/
+graphs/*
+!graphs/demo/
 net_data.db
 
 # Byte-compiled / optimized / DLL files
