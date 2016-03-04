@@ -114,7 +114,7 @@ if __name__ == '__main__':
             elif args.range:
                 range_start = args.range[0]
                 range_end = args.range[1]
-                query = 'SELECT datetime, {} FROM entries WHERE datetime BETWEEN "{} 00:00:00.000" AND "{} 23:59:59.000";'.format(column, range_start, range_end)
+                query = 'SELECT datetime, {} FROM entries WHERE datetime BETWEEN "{} 00:00:00.000" AND "{} 23:59:59.999999";'.format(column, range_start, range_end)
             else:
                 query = 'SELECT datetime, {} FROM entries;'.format(column)
 
