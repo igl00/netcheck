@@ -12,6 +12,7 @@ The only external package require to get netcheck.py working is speedtest-cli, t
 used by the visualize.py file to plot the data. Before anythin else, you will need to run
 ```python netcheck.py --create-db``` to create the database. Sqlite3.exe will need to be in your path
 for this to work.
+
 To generate a continuous log you need to add the netcheck.py script, either to cron on linux, or
 task scheduler in windows.
 The example images were generated using a task scheduled to run every 5 minutes.
