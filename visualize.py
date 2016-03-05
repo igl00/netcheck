@@ -27,7 +27,7 @@ def plot(data_x, data_y, column, date=None):
         label_x = 'Time'
         start_date = data_x[0].date()
         end_date = data_x[-1].date()
-        filename = '{}-range_{}-{}'.format(column, start_date, end_date)
+        filename = '{}-range_{}_{}'.format(column, start_date, end_date)
 
     # Style the plot
     matplotlib.rc('xtick', labelsize=12)
